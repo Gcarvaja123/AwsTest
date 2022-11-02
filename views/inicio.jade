@@ -1,1 +1,7 @@
-h1 sick sick
+doctype html
+html(lang='en')
+  head
+    script.
+      local_data = !{JSON.stringify(test)};
+  body
+    h1 sick !{test}
